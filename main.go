@@ -1,18 +1,26 @@
 package main
 
+/**
+** @ Author       : SmallSuperMan
+** @ Date         : 2020-09-07 23:39:56
+** @ LastEditTime : 2020-09-22 22:53:28
+** @ LastEditors  : SmallSuperMan
+** @ FilePath     : \ginTest\main.go
+** @ Description  :
+**/
+
 import (
 	"fmt"
 	// "log"
 	// "net/http"
 	// "path"
 	// "path/filepath"
-
 	// "github.com/gin-gonic/gin"
 )
 
 func main() {
-	fmt.Printf("你好，世界！")
-	test()
+	fmt.Printf("你好,世界！\n")
+	_ = test()
 	// router := gin.Default()
 	// router.POST("/upload", func(c *gin.Context) {
 	// 	// 从表单取文件
